@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
+import Header from './component/Header';
+import Contents from './component/Contents';
+import Footer from './component/Footer';
+
 
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <>
+      <Header />
+      <Contents />
+      <Footer />
+    </>
   );
 }
 
