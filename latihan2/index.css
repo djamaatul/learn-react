@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --biru : tomato;
+}
+header.container{
+    width: 100%;
+    height: 20vh;
+    background-color: teal;
+    font-size: 5vh;
+}
+#banner{
+    padding: 4vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+article{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biru{
+    background-color: var(--biru);
+}
